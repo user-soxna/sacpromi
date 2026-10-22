@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SACPROMI - Spécialiste en Alimentation Animale</title>
+  <link rel="icon" type="image/png" href="img/Design_sans_titre-removebg-preview.png">
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="css/animations.css">
+  <link rel="stylesheet" href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css">
+</head>
+<body>
+  <!-- Header -->
+  <header id="header">
+    <div class="container">
+      <div class="logo">
+        <h1>SAC<span>PROMI</span></h1>
+      </div>
+      <nav>
+        <ul class="nav-links">
+          <li><a href="#hero" class="active">Accueil</a></li>
+          <li><a href="#about">À Propos</a></li>
+          <li><a href="#products">Produits</a></li>
+          <li><a href="#testimonials">Témoignages</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+        <div class="hamburger">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section id="hero">
+    <div class="container">
+      <div class="hero-content">
+        <h1 class="fade-in">Nutrition optimale pour vos animaux</h1>
+        <p class="fade-in delay-1">"Parce qu’un élevage durable commence
+          par une alimentation <br>  de qualité."</p>
+        <div class="hero-buttons fade-in delay-2">
+          <a href="#products" class="btn-primary">Nos Produits</a>
+          <a href="#contact" class="btn-secondary">Contactez-nous</a>
+        </div>
+      </div>
+      <div class="hero-image fade-in delay-3">
+        <img src="img/baniere.png" alt="Alimentation animale de qualité">
+      </div>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about">
+    <div class="container">
+      <div class="section-header">
+        <h2 class="fade-in">À Propos de SACPROMI</h2>
+        <div class="section-line"></div>
+      </div>
+      <div class="about-content">
+        <div class="about-image fade-in">
+          <img src="img/3353613_uploaded_image1_1632661949.jpg" alt="Notre ferme">
+        </div>
+        <div class="about-text">
+          <h3 class="fade-in">Notre Mission</h3>
+          <p class="fade-in delay-1">Fondée en 2022, SACPROMI s'est donnée pour mission de fournir une alimentation animale de haute qualité, nutritive et adaptée aux besoins spécifiques de chaque espèce. Nous nous engageons à utiliser des ingrédients naturels et de première qualité pour garantir la santé et la croissance optimale des animaux.</p>
+          <h3 class="fade-in delay-2">Notre Expertise</h3>
+          <p class="fade-in delay-3">Avec plus de 10 ans d'expérience dans le domaine, notre équipe d'experts en nutrition animale développe des formulations équilibrées qui répondent aux besoins nutritionnels de la volaille, du bétail et des poissons à tous les stades de leur développement.</p>
+          <div class="about-stats fade-in delay-4">
+            <div class="stat">
+              <i class='bx bx-check-shield'></i>
+              <h4>Qualité Certifiée</h4>
+            </div>
+            <div class="stat">
+              <i class='bx bx-leaf'></i>
+              <h4>Ingrédients Naturels</h4>
+            </div>
+            <div class="stat">
+              <i class='bx bx-medal'></i>
+              <h4>10+ Années d'Expérience</h4>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Products Section -->
+  <section id="products">
+    <div class="container">
+      <div class="section-header">
+        <h2 class="fade-in">Nos Produits</h2>
+        <div class="section-line"></div>
+      </div>
+      <div class="product-filters fade-in">
+        <button class="filter-btn active" data-filter="all">Tous</button>
+        <button class="filter-btn" data-filter="poultry">Volaille</button>
+        <button class="filter-btn" data-filter="livestock">Bétail</button>
+        <button class="filter-btn" data-filter="fish">Pisciculture</button>
+      </div>
+      <div class="products-grid">
+        <!-- Poultry Products -->
+        <div class="product-card fade-in" data-category="poultry">
+          <div class="product-image">
+            <img src="img/démarrage.jpg" alt="Aliment pour démarrage">
+          </div>
+          <div class="product-info">
+            <h3>Aliment pour démarrage</h3>
+            <p style="text-align: justify;">Un concentré de nutriments pour un bon départ !
+              Riche en protéines digestibles, vitamines et minéraux, cet aliment favorise un développement rapide des organes vitaux, renforce le système immunitaire et assure une croissance harmonieuse dès les premiers jours.</p>
+            <a href="#contact" class="btn-tertiary">En savoir plus</a>
+          </div>
+        </div>
+        <div class="product-card fade-in delay-1" data-category="poultry">
+          <div class="product-image">
+            <img src="img/croissance.jpg" alt="Aliment pour croissance">
+          </div>
+          <div class="product-info">
+            <h3>Aliment croissance</h3>
+            <p style="text-align: justify;">Pour un gain de poids efficace et une croissance équilibrée.
+              Formulé pour répondre aux besoins nutritionnels intermédiaires, cet aliment favorise le développement musculaire, améliore la conversion alimentaire et prépare les volailles à la phase finale.</p>
+            <a href="#contact" class="btn-tertiary">En savoir plus</a>
+          </div>
+        </div>
+        
+        <!-- Livestock Products -->
+        <div class="product-card fade-in delay-2" data-category="poultry">
+          <div class="product-image">
+            <img src="img/finition.jpg" alt="Aliment pour finition">
+          </div>
+          <div class="product-info">
+            <h3>Aliment finition</h3>
+            <p style="text-align: justify;">Une finition de qualité pour un meilleur rendement.
+              Enrichi pour maximiser la prise de poids et améliorer la texture de la viande, cet aliment assure une finition saine et rentable, tout en respectant le bien-être animal.</p>
+            <a href="#contact" class="btn-tertiary">En savoir plus</a>
+          </div>
+        </div>
+        <div class="product-card fade-in delay-3" data-category="livestock">
+          <div class="product-image">
+            <img src="img/bétail1.jpg" alt="Aliment pour bétail">
+          </div>
+          <div class="product-info">
+            <h3>Aliment bétail </h3>
+            <p style="text-align: justify;">Idéal pour les jeunes animaux en croissance ou les adultes en phase de finition. Riche en énergie et en protéines digestibles, il favorise un bon développement musculaire, une prise de poids rapide et une finition de qualité.</p>
+            <a href="#contact" class="btn-tertiary">En savoir plus</a>
+          </div>
+        </div>
+        
+        <!-- Fish Products -->
+        <div class="product-card fade-in delay-4" data-category="livestock">
+          <div class="product-image">
+            <img src="img/baniere.png" alt="Aliment pour poissons">
+          </div>
+          <div class="product-info">
+            <h3>Aliment pour Vaches Laitières</h3>
+            <p style="text-align: justify;">Équilibré pour soutenir la production laitière, tout en respectant la santé de l’animal. Cet aliment améliore le rendement laitier, la qualité du lait (teneur en matière grasse et protéique) et la longévité de la vache.</p>
+            <a href="#contact" class="btn-tertiary">En savoir plus</a>
+          </div>
+        </div>
+        <div class="product-card fade-in delay-5" data-category="fish">
+          <div class="product-image">
+            <img src="img/pisciculture.jpg" alt="Aliment pour poissons juvéniles">
+          </div>
+          <div class="product-info">
+            <h3>Pisciculture</h3>
+            <p style="text-align: justify;">Nos techniques allient savoir-faire local et innovations techniques : gestion de la qualité de l’eau, sélection rigoureuse des alevins, alimentation adaptée et suivi sanitaire rigoureux pour minimiser les pertes et optimiser la productivité.</p>
+            <a href="#contact" class="btn-tertiary">En savoir plus</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Testimonials Section -->
+  <section id="testimonials">
+    <div class="container">
+      <div class="section-header">
+        <h2 class="fade-in">Témoignages</h2>
+        <div class="section-line"></div>
+      </div>
+      <div class="testimonials-slider">
+        <div class="testimonial-card active fade-in">
+          <div class="testimonial-content">
+            <i class='bx bxs-quote-left'></i>
+            <p>"Depuis que j'utilise les aliments SACPROMI pour mes poulets, j'ai constaté une amélioration significative de leur santé et une augmentation de la production d'œufs. Un produit que je recommande vivement!"</p>
+            <div class="testimonial-author">
+              <h4>Ibrahima DIAW</h4>
+              <p>Éleveur de volailles</p>
+            </div>
+          </div>
+        </div>
+        <div class="testimonial-card fade-in">
+          <div class="testimonial-content">
+            <i class='bx bxs-quote-left'></i>
+            <p>"La qualité des aliments pour bétail de SACPROMI est exceptionnelle. Mes vaches laitières sont en meilleure santé et produisent davantage de lait. Un excellent retour sur investissement."</p>
+            <div class="testimonial-author">
+              <h4>Abdoulaye BALDE</h4>
+              <p>Ferme laitière</p>
+            </div>
+          </div>
+        </div>
+        <div class="testimonial-card fade-in">
+          <div class="testimonial-content">
+            <i class='bx bxs-quote-left'></i>
+            <p>"Avant, je rencontrais beaucoup de difficultés avec l'alimentation de mes animaux, surtout pendant la saison sèche. Depuis que j'utilise l'aliment bétail de SACPROMI, j’ai constaté un vrai changement : mes vaches sont plus résistantes, et la production laitière a augmenté. Même mes moutons sont en meilleure forme. C’est un produit de qualité, et je le recommande à tous les éleveurs du Sénégal."</p>
+            <div class="testimonial-author">
+              <h4> Modou DIOP</h4>
+              <p>Eleveur</p>
+            </div>
+          </div>
+        </div>
+        <div class="testimonial-controls fade-in delay-2">
+          <button class="prev-btn"><i class='bx bx-chevron-left'></i></button>
+          <div class="testimonial-dots">
+            <span class="dot active"></span>
+            <span class="dot"></span>
+            <span class="dot"></span>
+          </div>
+          <button class="next-btn"><i class='bx bx-chevron-right'></i></button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact">
+    <div class="container">
+      <div class="section-header">
+        <h2 class="fade-in">Contactez-nous</h2>
+        <div class="section-line"></div>
+      </div>
+      <div class="contact-content">
+        <div class="contact-info fade-in">
+          <h3>Nos Coordonnées</h3>
+          <div class="info-item">
+            <i class='bx bx-map'></i>
+            <p>Darsalam/Ziguinchor, sur la route de Ziguinchor</p>
+          </div>
+          <div class="info-item">
+            <i class='bx bx-phone'></i>
+            <p>+221 77 537 29 53</p>
+          </div>
+          <div class="info-item">
+            <i class='bx bx-envelope'></i>
+            <p>sacpromi@gmail.com</p>
+          </div>
+          <div class="info-item">
+            <i class='bx bx-time'></i>
+            <p>Lun - Ven: 8h00 - 17h00</p>
+          </div>
+          <div class="social-media">
+            <a href="https://www.facebook.com/profile.php?id=61572872783199&locale=fr_FR" class="social-icon"><i class='bx bxl-facebook'></i></a>
+            <a href="#" class="social-icon"><i class='bx bxl-twitter'></i></a>
+            <a href="https://www.instagram.com/sacpromi_suarl?igsh=MTlneGJ1M3l1OGVjMg==" class="social-icon"><i class='bx bxl-instagram'></i></a>
+            <a href="https://www.linkedin.com/company/sacpromi-suarl/?viewAsMember=true" class="social-icon"><i class='bx bxl-linkedin'></i></a>
+          </div>
+        </div>
+        <div class="contact-form fade-in delay-1">
+          <h3>Envoyez-nous un message</h3>
+          <form id="contactForm">
+            <div class="form-group">
+              <input type="text" id="name" placeholder="Votre nom" required>
+            </div>
+            <div class="form-group">
+              <input type="email" id="email" placeholder="Votre email" required>
+            </div>
+            <div class="form-group">
+              <input type="text" id="subject" placeholder="Sujet" required>
+            </div>
+            <div class="form-group">
+              <textarea id="message" placeholder="Votre message" required></textarea>
+            </div>
+            <button type="submit" class="btn-primary">Envoyer</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-logo">
+          <h2>SAC<span>PROMI</span></h2>
+          <p>Parce qu’un élevage durable commence
+            par une alimentation <br>  de qualité."</p>
+        </div>
+        <div class="footer-links">
+          <h3>Liens Rapides</h3>
+          <ul>
+            <li><a href="#hero">Accueil</a></li>
+            <li><a href="#about">À Propos</a></li>
+            <li><a href="#products">Produits</a></li>
+            <li><a href="#testimonials">Témoignages</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+        <div class="footer-products">
+          <h3>Nos Produits</h3>
+          <ul>
+            <li><a href="#products">Alimentation Volaille</a></li>
+            <li><a href="#products">Alimentation Bétail</a></li>
+            <li><a href="#products">Alimentation Pisciculture</a></li>
+          </ul>
+        </div>
+        <div class="footer-newsletter">
+          <h3>Newsletter</h3>
+          <p>Inscrivez-vous pour recevoir nos actualités et offres.</p>
+          <form id="newsletterForm">
+            <input type="email" placeholder="Votre email" required>
+            <button type="submit"><i class='bx bx-paper-plane'></i></button>
+          </form>
+        </div>
+      </div>
+      <div class="copyright">
+        <p>&copy; 2025 Gora BA. Tous droits réservés.</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Back to Top Button -->
+  <a href="#hero" class="back-to-top"><i class='bx bx-up-arrow-alt'></i></a>
+
+  <!-- Scripts -->
+  <script src="js/main.js"></script>
+  <script src="js/animations.js"></script>
+</body>
+</html>
